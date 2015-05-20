@@ -7,7 +7,19 @@ These sensors just pulse the white wire as fluid is flowing through it. Basicall
 
 Beware the flow direction
 
-Beware the pinout
+Beware the pinout:
+
+```
+red   = 5-24 Volts
+|
+>
+> 10k Ohm resistor between red and white
+>
+|
+white = Pulses out (to pin 7 on the Arduino)
+black = ground/0 volts
+
+```
 
 Look up the data sheet for more:
 

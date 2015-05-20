@@ -5,7 +5,9 @@ This is a simple Arduino example for the FT-330 Series Turbine Flow Sensor. Thes
 
 These sensors just pulse the white wire as fluid is flowing through it. Basically, 10,000 puleses per gallon.
 
-Beware the flow direction
+Beware the flow direction: (arrow on the bottom of the sensor)
+
+Beware the serial Baud Rate: 9600 baud
 
 Beware the pinout:
 
@@ -21,7 +23,7 @@ black = ground/0 volts
 
 ```
 
-Look up the data sheet for more:
+Beware the data sheet:
 
 ```
 http://www.gemssensors.com/~/media/GemsNA/NEW%20CATALOG%20FILES%20-%202013/FT-330.pdf
